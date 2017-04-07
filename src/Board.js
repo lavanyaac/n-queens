@@ -115,7 +115,7 @@
 
     // test if any columns on this board contain conflicts
     hasAnyColConflicts: function() {
-     for (var i = 0; i < this.get('n'); i++) {
+      for (var i = 0; i < this.get('n'); i++) {
         if (this.hasColConflictAt(i)) {
           return true;
         }
@@ -159,7 +159,7 @@
       for(var i = -(size-2); i<=(size-2); i++){
         if(this.hasMajorDiagonalConflictAt(i)){
           return true;
-        };
+        }
       }
       return false; 
     },
@@ -201,7 +201,7 @@
       for(var i = -(size-2); i<=(size-2); i++){
         if(this.hasMinorDiagonalConflictAt(i)){
           return true;
-        };
+        }
       }
       return false; 
     }
