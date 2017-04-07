@@ -35,7 +35,7 @@
 
     _getFirstRowColumnIndexForMinorDiagonalOn: function(rowIndex, colIndex) {
       return colIndex + rowIndex;
-    },
+    }, 
 
     hasAnyRooksConflicts: function() {
       return this.hasAnyRowConflicts() || this.hasAnyColConflicts();
